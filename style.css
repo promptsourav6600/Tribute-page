@@ -1,0 +1,233 @@
+/* Import the Google Font "Sofadi One" */
+@import url('https://fonts.googleapis.com/css2?family=Sofadi+One&display=swap');
+
+/* Style the body element */
+body {
+  /* Set the background color to a light blue hue */
+  background-color: #7aa0dd;
+
+  /* Set the font family to "Sofadi One" or a system font */
+  font-family: "Sofadi One", system-ui;
+
+  /* Set the font weight to normal (400) */
+  font-weight: 400;
+
+  /* Set the font style to normal (not italic or bold) */
+  font-style: normal;
+
+  /* Make the body element take up the full viewport */
+  width: 100%;
+  height: 100vh;
+
+  /* Remove default margins and padding */
+  margin: 0;
+  padding: 0;
+  border: none;
+
+  /* Center the content vertically */
+  align-content: center;
+
+  /* Apply a repeating linear gradient background for a visual effect */
+  background-image: repeating-linear-gradient(#eb660e , #dda82b 10%, green 20%);
+}
+
+/* Style the main element */
+main {
+  /* Center the content vertically */
+  align-content: center;
+
+  /* Remove default margins and padding */
+  margin: 0;
+  padding: 0;
+  border: none;
+}
+
+/* Style the h1 element (main title) */
+h1 {
+  /* Remove default borders and padding */
+  border: none;
+  padding: none;
+
+  /* Add padding at the top */
+  padding-top: 2%;
+
+  /* Set a large font size */
+  font-size: 50px;
+
+  /* Set the text color to a blue hue */
+  color: #1367e6;
+
+  /* Center the text horizontally */
+  text-align: center;
+
+  /* Convert all text to uppercase */
+  text-transform: uppercase;
+}
+
+/* Style the h2 element (secondary title) */
+h2 {
+  /* Remove default borders and padding */
+  border: none;
+  padding: none;
+
+  /* Set a smaller font size */
+  font-size: 40px;
+
+  /* Center the text horizontally */
+  text-align: center;
+
+  /* Add a margin to the top */
+  margin-top: -15px;
+
+  /* Apply a border with different colors on each side */
+  border-style: solid;
+  border-width: 25px 35px 4px 35px;
+  border-color: #0ec50e #6EC207 #117554 #8FD14F;
+
+  /* Set a background color */
+  background-color: #cf7b0c;
+
+  /* Set the text color to white */
+  color: #fff;
+}
+
+/* Style the #img-div element (image container) */
+#img-div {
+  /* Set a background color */
+  background-color: #cf7b0c;
+
+  /* Apply a border */
+  border: 10px solid #0ec50e;
+}
+
+/* Style the img element (image) */
+img {
+  /* Add a box shadow for a depth effect */
+  box-shadow: 5px 10px 8px #a3a375;
+
+  /* Remove default padding */
+  padding: 0%;
+
+  /* Make the image take up the full width of its container */
+  width: 100%;
+
+  /* Maintain the image's aspect ratio */
+  height: auto;
+
+  /* Center the image horizontally */
+  margin: auto;
+}
+
+/* Style the #img-caption element (image caption) */
+#img-caption {
+  /* Center the text horizontally */
+  text-align: center;
+
+  /* Set the font style to italic */
+  font-style: italic;
+
+  /* Set a font size */
+  font-size: 20px;
+
+  /* Add padding at the bottom */
+  padding-bottom: 1%;
+}
+
+/* Style the blockquote element (quote) */
+blockquote {
+  /* Center the text horizontally */
+  text-align: center;
+
+  /* Set a font size */
+  font-size: 30px;
+}
+
+/* Style the .para element (paragraph container) */
+.para {
+  /* Remove default margins and padding */
+  margin: 0;
+  padding: 0;
+
+  /* Apply a border */
+  border: 3px solid #0ec50e;
+}
+
+/* Style the h3 element (heading) */
+h3 {
+  /* Add padding at the top and bottom */
+  padding-top: 1%;
+  padding-bottom: 1%;
+
+  /* Set a font size */
+  font-size: 23px;
+
+  /* Center the content vertically */
+  align-content: center;
+
+  /* Center the text horizontally */
+  text-align: center;
+}
+
+/* Style the p element (paragraph) */
+p {
+  /* Set the text color to a light color */
+  color: #F5F7F8;
+
+  /* Set a font size */
+  font-size: 20px;
+
+  /* Center the content vertically */
+  align-content: center;
+
+  /* Remove default margins */
+  margin: 0;
+
+  /* Add padding to the left and right */
+  padding-right: 10%;
+  padding-left: 10%;
+}
+
+/* Style the i element (italic text) */
+i {
+  /* Set the font style to italic */
+  font-style: italic;
+
+  /* Set a font size */
+  font-size: 20px;
+
+  /* Set the font weight to bold */
+  font-weight: 800;
+
+  /* Set the text color to black */
+  color: #000;
+}
+
+/* Style the span element (emphasized text) */
+span {
+  /* Set the font weight to bold */
+  font-weight: bold;
+
+  /* Set the text color to a dark green hue */
+  color: #011d01;
+}
+
+/* Style the q element (quote) */
+q {
+  /* Set the font weight to extra bold */
+  font-weight: 900;
+}
+
+/* Style the a element (link) */
+a {
+  /* Remove the default text decoration */
+  text-decoration: none;
+
+  /* Set the text color to white */
+  color: #fff;
+
+  /* Set the font weight to bold */
+  font-weight: bolder;
+
+  /* Display the link as a block element */
+  font-display: block;
+}
